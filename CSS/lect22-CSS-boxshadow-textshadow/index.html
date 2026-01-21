@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        :root {
+            --primary-color: brown;
+            --custom-width: 330px;
+        }
+        .container {
+            background-color: beige;
+            height: 650px;
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box {
+            background-color: aquamarine;
+            width: var(--custom-width); 
+            height: 330px;
+            border: 1px solid var(--primary-color);
+            margin: 5px;
+            padding: 5px;
+
+            box-shadow: 10px 10px 30px var(--primary-color);
+
+            /* box-shadow: -20px 20px gray; */
+            /* box-shadow: 20px 20px 30px gray; */
+            /* box-shadow: 10px 10px 15px 50px gray; */
+
+            /* box-shadow: inset 10px 10px brown; */
+            /* box-shadow: 5px 5px 15px 5px gray, -5px -5px 15px 5px rgb(39, 208, 194); */
+        }
+
+        #head1{
+            /* text-shadow: 12px 13px 2px gray; */
+            /* text-shadow: yellow 2px 3px 5px; */
+            /* text-shadow: white 12px 13px; */
+            /* text-shadow: 12px 13px; */
+            text-shadow: 2px 3px 2px red, yellow 4px 6px 2px, blue 6px 8px 5px; 
+        }
+
+        img {
+            width: 150px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+
+        <div class="box">
+            <img src="mylogo.jpg" alt="logo">
+            <h2 id="head1">Welcome to CodeShadow</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis officia nobis iure quos? Mollitia dolores molestiae, error magni assumenda ea tempora repellendus quis nemo perferendis reiciendis consequuntur dicta expedita iure?</p>
+        </div>
+    </div>
+</body>
+</html>

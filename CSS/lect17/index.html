@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lect 17</title>
+
+    <style>
+        img{
+            margin: 10px;
+        }
+
+        div{
+            border: 1px solid black;
+        }
+
+        .image2{
+            position: static;
+
+            /* position: relative;
+            top: 100px;
+            left: 100px; */
+            
+            /* position: absolute;
+            top: 100px; */
+        }
+
+        .container{
+            position: relative;
+            height: 2000px;
+            background-color: lightslategrey;
+        }
+
+        .image4{
+            position: fixed;
+        }
+
+        .image3{
+            position: sticky;
+            top: 50px;
+        }
+
+        .box{
+            height: 2000px;
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+
+        <img 
+            src="software1.png" 
+            alt="poster 1"
+            height="200px"
+            width="300px"
+            class="image1"
+        >
+
+        <img 
+            src="software2.png" 
+            alt="poster 2"
+            height="200px"
+            width="300px"
+            class="image2"
+        >
+
+        <img 
+            src="software3.png" 
+            alt="poster 3"
+            height="200px"
+            width="300px"
+            class="image3"
+        >
+
+        <img 
+            src="software4.png" 
+            alt="poster 4"
+            height="200px"
+            width="300px"
+            class="image4"
+        >
+
+
+    </div>
+
+    <div class="box">
+
+    </div>
+
+</body>
+</html>
