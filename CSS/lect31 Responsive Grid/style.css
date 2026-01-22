@@ -16,6 +16,8 @@ body{
     display: grid;
     gap: 1rem;
     background-color: rgb(71, 65, 65);
+    /* grid-template-columns: repeat(3, 1fr); */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
 .item{
