@@ -27,3 +27,33 @@ body{
     border: 2px solid black;
     padding: 10px;
 }
+
+#RotateX:hover{
+    transform: rotateX(45deg);
+}
+#RotateY:hover{
+    transform: rotateY(-45deg);
+}
+#RotateZ:hover{
+    transform: rotateZ(45deg);
+}
+
+#TranslateX:hover{
+    transform: translateX(100px);
+}
+#TranslateY:hover{
+    transform: translateY(100px);
+}
+#TranslateZ:hover{
+    transform:perspective(300px) translateZ(-100px);
+}
+
+#ScaleX:hover{
+    transform: scaleX(1.5);
+}
+#ScaleY:hover{
+    transform: scaleY(1.5);
+}
+#ScaleZ:hover{
+    transform:perspective(300px) scaleZ(5) rotateY(30deg);
+}
