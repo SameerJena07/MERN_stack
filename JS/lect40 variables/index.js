@@ -51,3 +51,39 @@
 
 
 
+// ** DataType ** //
+
+// let marks = 20;
+// marks = "Sameer"
+// marks = true
+
+// let marks;
+// console.log(marks);
+
+// let value = null;
+// console.log(value);
+
+// marks = 245345313121534535456435454543544354353454543543545454445554545;
+// console.log(marks);
+
+
+// let result = 50;
+// console.log(typeof(result));
+
+
+//Symbol
+
+let id = Symbol("id");
+
+let user = {
+  name: "Sameer",
+  age: 21,
+  [id]: 101
+};
+
+console.log(user[id]); 
+console.log(user.age);
+console.log(user.name);
+
+
+
