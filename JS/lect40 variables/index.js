@@ -38,6 +38,16 @@
 // example();
 
 
+// Const //
+//This is not redeclare and not redefined
+
+// const a = 20;
+// console.log(a);
+
+
+// a = 30;
+// console.log(a);
+//this is showing error beacause this is not aplicable for redeclare
 
 
 
