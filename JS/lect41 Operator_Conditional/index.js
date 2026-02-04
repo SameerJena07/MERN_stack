@@ -40,7 +40,16 @@ console.log(a);
 // console.log(c === d);  //Stict equality
 
 
-let age = 10;
-let vote = (age > 18) ? 'I can vote' : 'I cannot vote';  //Ternary Operator
-console.log(vote);
+// Ternary Operator //
+    // let age = 10;
+    // let vote = (age > 18) ? 'I can vote' : 'I cannot vote';
+    // console.log(vote);
+
+
+// Logical Operator //
+    // let ans = (true && true && true);
+    // let ans = (true || true || false);
+    let ans = (!false);
+    console.log(ans);
+    
 
