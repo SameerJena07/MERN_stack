@@ -69,11 +69,63 @@ console.log(a);
 
 // ** Conditionals ** //
 
-let age = 15;
-if (age >= 18){
-    console.log("can Vote");
-} else {
-    console.log("can not vote");
+    // If-Else
+
+// let age = 15;
+// if (age >= 18){
+//     console.log("can Vote");
+// } else {
+//     console.log("can not vote");
+// }
+
+
+    //If-elseIf
+
+// let number=5;
+
+// if (number == 1){
+//     console.log('A');
+// }
+// else if(number == 2){
+//     console.log('B');
+// }
+// else if(number == 3){
+//     console.log('C');
+// }
+// else if(number == 4){
+//     console.log('D');
+// }
+// else if(number == 5){
+//     console.log('E');
+// }
+// else {
+//     console.log('F');
+// }
+
+
+
+
+    // Nested If-else //
+
+let number=5;
+let age = 20
+
+if (number == 1){
+    console.log('A');
+}
+else if(number == 2){
+    console.log('B');
+}
+else if(number == 5){
+    if (age > 18){
+        console.log('I can vote');
+    } else {
+        console.log('I can not vote');
+    }
+    console.log('E');
+}
+else {
+    console.log('F');
 }
 
 
