@@ -63,8 +63,18 @@ console.log(a);
 
 // console.log(10 >> 2);
 
-console.log(10 ^ 2);
+// console.log(10 ^ 2);
 
+
+
+// ** Conditionals ** //
+
+let age = 15;
+if (age >= 18){
+    console.log("can Vote");
+} else {
+    console.log("can not vote");
+}
 
 
 
