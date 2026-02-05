@@ -47,9 +47,28 @@ console.log(a);
 
 
 // Logical Operator //
-    // let ans = (true && true && true);
+    // let ans = (true && true && false);
     // let ans = (true || true || false);
-    let ans = (!false);
-    console.log(ans);
+    // let ans = (!false);
+    // console.log(ans);
     
+// console.log(false || 7);
+
+
+// console.log(2 | 5);
+
+// console.log(~(0));
+
+// console.log(5 << 2);
+
+// console.log(10 >> 2);
+
+console.log(10 ^ 2);
+
+
+
+
+
+
+
 
