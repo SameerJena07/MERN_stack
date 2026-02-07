@@ -37,9 +37,30 @@
 
 // * While-loop * //
 
-let i = 1;
-while(i<=10){
-    console.log("sameer jena");
+// let i = 1;
+// while(i<=10){
+//     console.log("sameer jena");
     
-    i++;
-}
+//     i++;
+// }
+
+
+
+// * do-while loop * //
+
+// let i = 1;
+// do {
+//     console.log(i);
+    
+//     i++;
+// }
+// while(i <= 10);
+
+
+let i = 5;
+do {
+    console.log(i);
+
+    i--;
+    
+} while (i > 0);
