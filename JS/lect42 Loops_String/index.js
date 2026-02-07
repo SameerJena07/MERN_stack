@@ -57,10 +57,80 @@
 // while(i <= 10);
 
 
-let i = 5;
-do {
-    console.log(i);
+// let i = 5;
+// do {
+//     console.log(i);
 
-    i--;
+//     i--;
     
-} while (i > 0);
+// } while (i > 0);
+
+
+
+
+/// *** STRING *** ///
+
+
+
+// let firstName = "Sameer";
+// let lastName = 'Jena';
+
+// let Name = `sameer
+// jena  this is 
+// my name`;
+
+// console.log(Name);
+
+
+// let firstName = new String("Sameer Jena");
+// console.log(firstName);
+
+// console.log(typeof(firstName));
+
+
+
+// let opt1 = "English";
+// let opt2 = "Hindi";
+
+// let finalAns = `${opt1} ${opt2}`;
+// console.log(finalAns);
+
+
+// let ans = opt1 + " " + opt2;
+// console.log(ans);
+
+
+
+// let a = "english";
+// let b = "HINDI";
+
+// console.log(a.length);
+
+// console.log(a.toUpperCase());
+
+// console.log(b.toLowerCase());
+
+
+
+// SUB STRING //
+
+// let str = "Sameer";
+// console.log(str.substring(2));
+// console.log(str.substring(2, 4));
+
+
+// Split-string //
+
+// let sentence = "I am a student";
+// let word = sentence.split(" ");
+// console.log(word);
+// console.log(typeof(word));
+
+
+let newOne = "This\\is\\a\\small\\programme";
+let newWord = newOne.split("\\");
+console.log(newWord);
+
+console.log(newWord.join('-'));
+
+
