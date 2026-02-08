@@ -110,11 +110,31 @@
 
 //* Reduce *//
 
-let arr = [10,20,30,40];
+// let arr = [10,20,30,40];
 
-let ans = arr.reduce((acc,curr) =>{
-    return acc+curr;
-}, 0);
+// let ans = arr.reduce((acc,curr) =>{
+//     return acc+curr;
+// }, 0);
 
-console.log(ans);
+// console.log(ans);
+
+
+
+// SORT //
+
+let arr1 = [9,1,7,4,2,8]
+
+arr1.sort();
+console.log(arr1);
+
+let arr2 = [9,1,7,4,2,8]
+
+arr2.sort().reverse();
+console.log(arr2);
+
+
+// indexOf //
+
+console.log(arr1.indexOf(9));
+console.log(arr2.indexOf(7));
 
