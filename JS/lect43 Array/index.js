@@ -122,19 +122,61 @@
 
 // SORT //
 
-let arr1 = [9,1,7,4,2,8]
+// let arr1 = [9,1,7,4,2,8]
 
-arr1.sort();
-console.log(arr1);
+// arr1.sort();
+// console.log(arr1);
 
-let arr2 = [9,1,7,4,2,8]
+// let arr2 = [9,1,7,4,2,8]
 
-arr2.sort().reverse();
-console.log(arr2);
+// arr2.sort().reverse();
+// console.log(arr2);
 
 
 // indexOf //
 
-console.log(arr1.indexOf(9));
-console.log(arr2.indexOf(7));
+// console.log(arr1.indexOf(9));
+// console.log(arr2.indexOf(7));
 
+
+
+// find() //
+
+
+// let numbers = [5, 130, 8, 12, 44];
+
+// let result = numbers.find((num) => {
+//     return num > 10
+// });
+
+// console.log(result);
+
+
+/***/
+
+
+// let fruits = ["apple", "banana", "mango"];
+
+// let result = fruits.find((fruit) => {
+//     if (fruit === "banana"){
+//         return true;
+//     } else {
+//         return false;
+//     }
+// });
+
+// console.log(result);
+
+
+/***/
+
+
+let users = [
+  { id: 1, name: "Sameer" },
+  { id: 2, name: "Kuna" },
+  { id: 3, name: "Arpit" }
+];
+
+let user = users.find(u => u.id === 2);
+
+console.log(user);
