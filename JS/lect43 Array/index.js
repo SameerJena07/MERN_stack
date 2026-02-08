@@ -36,22 +36,38 @@
 
 // using constructor //
 
-let brr = new Array("sameer", 1, true);
+// let brr = new Array("sameer", 1, true);
 
-brr.push('sameer');
-brr.pop();
+// brr.push('sameer');
+// brr.pop();
 
-brr.shift();
-brr.unshift("sameer jena");
-brr.push(20);
-brr.push(40);
-brr.push(70);
+// brr.shift();
+// brr.unshift("sameer jena");
+// brr.push(20);
+// brr.push(40);
+// brr.push(70);
 
 // console.log(brr.slice(3,5));
-console.log(brr);
 
+// brr.splice(1,0,'kunal');
 
+// console.log(brr);
 
 // console.log(brr[1]);
 
 
+
+// MAP //
+
+let arr = [10,20,30];
+
+arr.map((number, index) => {
+    console.log(number);
+    console.log(index);
+    
+})
+
+// let ansArray = arr.map((number) => {
+//     return number*number;
+// })
+// console.log(ansArray);
