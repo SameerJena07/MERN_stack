@@ -57,17 +57,56 @@
 
 
 
-// MAP //
+//* MAP *//
 
-let arr = [10,20,30];
+// let arr = [10,20,30];
 
-arr.map((number, index) => {
-    console.log(number);
-    console.log(index);
+// arr.map((number, index) => {
+//     console.log(number);
+//     console.log(index);
     
-})
+// })
 
 // let ansArray = arr.map((number) => {
 //     return number*number;
 // })
 // console.log(ansArray);
+
+
+
+
+//* filter *//
+
+// let arr = [10,20,30,11,21,55,22]
+
+// let evenArray = arr.filter((number) =>{
+//     if (number % 2 == 0){
+//         return true;
+//     } else {
+//         return false
+//     }
+    
+//     OR //
+
+//     return number % 2 == 0;
+// })
+// console.log(evenArray);
+
+
+//***//
+
+// let arr = [1,2,'sameer','kuna',null]
+
+// let ans = arr.filter((value) => {
+//     if(typeof(value) == 'string'){
+//         return true;
+//     } else {
+//         return false;
+//     }
+// })
+// console.log(ans);
+
+
+
+
+
