@@ -171,12 +171,37 @@
 /***/
 
 
-let users = [
-  { id: 1, name: "Sameer" },
-  { id: 2, name: "Kuna" },
-  { id: 3, name: "Arpit" }
-];
+// let users = [
+//   { id: 1, name: "Sameer" },
+//   { id: 2, name: "Kuna" },
+//   { id: 3, name: "Arpit" }
+// ];
 
-let user = users.find(u => u.id === 2);
+// let user = users.find(u => u.id === 2);
 
-console.log(user);
+// console.log(user);
+
+
+/***/
+
+
+// forEach()//
+
+// let arr = [10,20,30];
+
+// arr.forEach((value, index) => {
+//     console.log("Number: ", value, "Index: ", index); 
+// });
+
+
+// let arr = [10,20,30];
+
+// let length = arr.length;
+// console.log("length: ", length);
+
+// // traditional loop
+
+// for (let index = 0; index < length; index++){
+//     console.log(arr[index]);
+    
+// }
