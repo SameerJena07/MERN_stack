@@ -25,9 +25,30 @@
 // printNumber(5);
 
 
-function getAverage(num1, num2) {
-    let avg = (num1 + num2) / 2;
-    console.log("The avg value is:", avg);
+// function getAverage(num1, num2) {
+//     let avg = (num1 + num2) / 2;
+//     console.log("The avg value is:", avg);
     
+// }
+// getAverage(5, 6);
+
+
+
+// Return functions //
+
+// function getSum(a, b, c) {
+//     let sum = a+b+c;
+//     return sum;
+// }
+
+// let ans = getSum(1,2,3);
+// console.log("Printing Sum:", ans);
+
+
+function getName(firstName, lastName) {
+    let fullName = firstName + " " + lastName;
+    return fullName;
 }
-getAverage(5, 6);
+let fullName = getName("Sameer", "Jena");
+console.log(fullName);
+
