@@ -36,6 +36,7 @@
 
 // Return functions //
 
+
 // function getSum(a, b, c) {
 //     let sum = a+b+c;
 //     return sum;
@@ -45,10 +46,32 @@
 // console.log("Printing Sum:", ans);
 
 
-function getName(firstName, lastName) {
-    let fullName = firstName + " " + lastName;
-    return fullName;
+// function getName(firstName, lastName) {
+//     let fullName = firstName + " " + lastName;
+//     return fullName;
+
+//     //unrechable statement
+//         // let a = 10;
+//         // let b = 20;
+//         // sum = a + b;
+//         // console.log(sum);
+// }
+// let fullName = getName("Sameer", "Jena");
+// console.log(fullName);
+
+
+/***/
+
+// let getMultiplication = function (a,b) {
+//     return a*b;
+// }
+// let ans = getMultiplication(5,8);
+// console.log(ans);
+
+
+let squareNumber = function (num){
+    return (num**2);
 }
-let fullName = getName("Sameer", "Jena");
-console.log(fullName);
+let ans = squareNumber(5);
+console.log(ans);
 
