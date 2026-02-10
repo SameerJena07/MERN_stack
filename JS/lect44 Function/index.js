@@ -62,6 +62,8 @@
 
 /***/
 
+// variable type
+
 // let getMultiplication = function (a,b) {
 //     return a*b;
 // }
@@ -69,9 +71,27 @@
 // console.log(ans);
 
 
-let squareNumber = function (num){
-    return (num**2);
+// let squareNumber = function (num){
+//     return (num**2);
+// }
+// let ans = squareNumber(5);
+// console.log(ans);
+
+
+// Arrow function
+
+// let getExp = (x,y) => {
+//     return (x**y);
+// }
+// let ans = getExp(4, 2);
+// console.log(ans);
+
+
+let getFruits = (x,y) => {
+    let fruits = x + " " + y;
+    return fruits;
 }
-let ans = squareNumber(5);
+let ans = getFruits("Apple", "Banana");
 console.log(ans);
+
 
