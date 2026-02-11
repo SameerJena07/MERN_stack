@@ -40,3 +40,29 @@
 // console.log(fullName);
 
 // sayHello();
+
+
+
+// * Block Scope * //
+
+
+// console.log(height);
+
+// {
+//     var height = 5;
+// }
+// console.log(height);
+
+
+
+// {
+//     let age = 25;
+// }
+// console.log(age);   //Error because it is block scope
+
+
+// {
+//     const age = 25;
+// }
+// console.log(age);   //Error because it is also a block scope
+
