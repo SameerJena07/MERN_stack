@@ -14,6 +14,14 @@ class Human {
         console.log("I am Running");
         
     }
+
+    get fetchWeigth(){
+        return this.#weigth;
+    }
+
+    set modifyWeight(val){
+        this.#weigth = val;
+    }
 }
 let obj = new Human();
 
