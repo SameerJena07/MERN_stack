@@ -51,3 +51,26 @@
 // console.log("src: ", src);
 
 // console.log("dest: ", dest);
+
+
+
+// using Iteration Method //
+
+
+let src = {
+    age: 20,
+    ht: 6,
+    wt: 80
+};
+
+let dest = {};
+//cloning using iteration
+
+for (let key in src){
+    let newKey = key;
+    let newValue = src[key];
+    //insert newKey and Value in dest and create a clone
+    dest[newKey] = newValue;
+}
+
+console.log(dest);
