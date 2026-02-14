@@ -1,4 +1,19 @@
 
+// Added Function in Deafult Parameter
+
+function getAge(){
+    return 190;
+}
+
+function utility(name = "Sameer", age = getAge()){
+    console.log(name, " ", age);
+    
+}
+utility();
+
+
+
+
 //Default Parameter Value Passing
 
 // function sayName(fName = "Shadow", lName = "YT"){
@@ -24,11 +39,11 @@
 // solve();
 
 
-function solve(value = "Sameer"){
-    console.log("HELLO JII -> ", value);
+// function solve(value = "Sameer"){
+//     console.log("HELLO JII -> ", value);
     
-}
-solve(undefined);
+// }
+// solve(undefined);
 
 
 
