@@ -15,18 +15,39 @@
 //* Object Cloning //*
 
 
-let src = {
-    age: 20,
-    ht: 6,
-    wt: 80
-}
+// using Spread Operator //
 
-let dest = {...src};
+// let src = {
+//     age: 20,
+//     ht: 6,
+//     wt: 80
+// }
 
-src.age = 90;
+// let dest = {...src};
 
-console.log("src: ", src);
+// src.age = 90;
 
-console.log("dest: ", dest);
+// console.log("src: ", src);
+
+// console.log("dest: ", dest);
 
 
+// using assign // 
+
+// let src = {
+//     age: 20,
+//     ht: 6,
+//     wt: 80
+// }
+// let src2 = {
+//     value: 101,
+//     name: "Sameer"
+// }
+
+// let dest = Object.assign({}, src, src2);
+
+// src.age = 90;
+
+// console.log("src: ", src);
+
+// console.log("dest: ", dest);
