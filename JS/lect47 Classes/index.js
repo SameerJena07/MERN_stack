@@ -3,12 +3,18 @@ class Human {
 
     //properties
     age = 13;  //public
-    #weigth = 80;  //private
-    heigth = 5
+    #weight = 80;  //private
+    ht = 15;
+
+    constructor(newAge, newHeight, newWeigth){
+        this.age = newAge;
+        this.ht = newHeight;
+        this.#weight = newWeigth;
+    }
 
     //behaviour
     walking(){
-        console.log("I am Walking", this.#weigth);
+        console.log("I am Walking", this.#weight);
     }
     running(){
         console.log("I am Running");
@@ -16,15 +22,15 @@ class Human {
     }
 
     get fetchWeigth(){
-        return this.#weigth;
+        return this.#weight;
     }
 
     set modifyWeight(val){
-        this.#weigth = val;
+        this.#weight = val;
     }
 }
-let obj = new Human();
+let obj = new Human(50, 190, 90);
 
-console.log(obj.age);
+console.log(obj.fetchWeigth);
 obj.walking();
 
