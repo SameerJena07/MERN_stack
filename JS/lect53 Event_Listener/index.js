@@ -1,5 +1,7 @@
 
-function changeText(){
+function changeText(event){
+    console.log(event);
+    
     let fpara = document.getElementById('fpara');
     fpara.textContent = "Sameer";
 
@@ -7,9 +9,9 @@ function changeText(){
 
 let fpara = document.getElementById('fpara');
 
-// fpara.addEventListener('click', changeText);
+fpara.addEventListener('click', changeText);
 
-fpara.removeEventListener('click', changeText);
+// fpara.removeEventListener('click', changeText);
 
 
 
