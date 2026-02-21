@@ -13,3 +13,15 @@
 
 
 
+
+// Asynchronous Code //
+
+
+// let firstPromise = new Promise( (resolve, reject) => {
+//     setTimeout(function sayMyName() {
+//         console.log("My Name is Sameer Jena");
+//     }, 10000);
+    
+//     resolve(1);
+// });
+
