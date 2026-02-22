@@ -72,14 +72,36 @@
 //multiple promise//
 
 
+// let promise1 = new Promise((resolve, reject) => {
+//     setTimeout(resolve, 1000, "First");
+// })
+// let promise2 = new Promise((resolve, reject) => {
+//     setTimeout(resolve, 2000, "Second");
+// })
+// let promise3 = new Promise((resolve, reject) => {
+//     setTimeout(reject, 4000, "Third");
+// })
+
+// Promise.all([promise3, promise2, promise1])
+// .then((value) => {
+//     console.log(value);
+// })
+// .catch((error) => {
+//     console.error("Error: " + error);
+// })
+
+
+/***/
+
+
 let promise1 = new Promise((resolve, reject) => {
-    setTimeout(resolve, 1000, "First");
+    setTimeout(resolve, 1000, 10);
 })
 let promise2 = new Promise((resolve, reject) => {
-    setTimeout(resolve, 2000, "Second");
+    setTimeout(resolve, 2000, 20);
 })
 let promise3 = new Promise((resolve, reject) => {
-    setTimeout(reject, 4000, "Third");
+    setTimeout(reject, 4000, 30);
 })
 
 Promise.all([promise3, promise2, promise1])
