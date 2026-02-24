@@ -13,17 +13,30 @@
 
 
 
-function outer(){
-    let value = 5;
-    {
-        function inner(){
-            console.log(value);
+
+
+// function outer(){
+//     let value = 5;
+//     {
+//         function inner(){
+//             console.log(value);
             
-        }
-        inner()
+//         }
+//         inner()
+//     }
+// }
+// outer();
+
+
+
+
+function outerFunction(){
+    let name = "Sameer"; 
+    function innerFunction(){
+        console.log(name);
     }
+    return innerFunction;
 }
-outer();
+let inner = outerFunction();
 
-
-
+inner();
