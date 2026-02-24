@@ -63,18 +63,18 @@
 
 //* MAP *//
 
-// let arr = [10,20,30];
+let arr = [10,20,30];
 
-// arr.map((number, index) => {
-//     console.log(number);
-//     console.log(index);
+arr.map((number, index) => {
+    console.log(number);
+    console.log(index);
     
-// })
+})
 
-// let ansArray = arr.map((number) => {
-//     return number*number;
-// })
-// console.log(ansArray);
+let ansArray = arr.map((number) => {
+    return number*number;
+})
+console.log(ansArray);
 
 
 
@@ -249,16 +249,16 @@
 
 // OR //
 
-let arr = [10,20,30,40,50];
+// let arr = [10,20,30,40,50];
 
-function getSum(arr) {
+// function getSum(arr) {
     
-    let sum = 0;
-    arr.forEach((value) => {
-        sum = sum + value;
-    });
-    return sum;
-}
+//     let sum = 0;
+//     arr.forEach((value) => {
+//         sum = sum + value;
+//     });
+//     return sum;
+// }
 
-let totalSum = getSum(arr);
-console.log(totalSum);
+// let totalSum = getSum(arr);
+// console.log(totalSum);

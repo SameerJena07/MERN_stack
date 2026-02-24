@@ -65,8 +65,6 @@
 
 // mydiv.addEventListener('click', alertPara);
 
-
-
 /***/
 
 
