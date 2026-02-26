@@ -31,7 +31,7 @@
 
 
 function outerFunction(){
-    let name = "Sameer"; 
+    let name = "Sameer Jena"; 
     function innerFunction(){
         console.log(name);
     }
