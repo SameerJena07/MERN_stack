@@ -10,8 +10,8 @@ function App() {
   return (
     <div className="container">
         <UserCard name='Sameer' desc="desc1" image={Ai} style={{"border-radius":"10px"}}/>
-        <UserCard name='Arpit' desc="desc2" image={Arpit}/>
-        <UserCard name='Biswajit' desc="desc3" image={Biswa}/>
+        <UserCard name='Arpit' desc="desc2" image={Arpit} style={{"border-radius":"10px"}}/>
+        <UserCard name='Biswajit' desc="desc3" image={Biswa} style={{"border-radius":"10px"}}/>
     </div>
   )
 }
