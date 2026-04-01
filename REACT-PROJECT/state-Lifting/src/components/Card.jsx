@@ -4,7 +4,7 @@ const Card = (props) => {
   return (
     <div>
       <input type="text" onChange={(e)=> props.setName(e.target.value)}/>
-      <p>Name State variable value inside card: {props.name}</p>
+      <p>Name State variable value inside {props.title} : {props.name}</p>
     </div>
   )
 }

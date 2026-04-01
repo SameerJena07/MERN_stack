@@ -12,8 +12,9 @@ function App() {
 
   return (
     <div>
-    <Card name={name} setName={setName}/>
-    <p>I am inside parent component and value of name is: {name}</p>
+    <Card title="Card1" name={name} setName={setName}/>
+    <Card title="Card2" name={name} setName={setName}/>
+    {/* <p>I am inside parent component and value of name is: {name}</p> */}
     </div>
   )
 }
