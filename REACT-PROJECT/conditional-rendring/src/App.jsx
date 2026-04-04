@@ -1,14 +1,47 @@
 import { useState } from 'react'
 import './App.css'
+import LogoutBtn from './components/LogoutBtn';
+import LoginBtn from './components/LoginBtn';
 
 function App() {
-  
+  const [isLoggedIn, setLoggedIn] = useState(true);
+
+
+  if(!isLoggedIn){
+    return (
+      <LoginBtn/>
+    )
+  }
 
   return (
     <div>
-      Hello I am Sameer Jena
+      <h1>Welcome Everyone to Web Development</h1>
+
+      <div>
+        {isLoggedIn && <LogoutBtn/>}
+      </div>
     </div>
   )
+
+
+//Using Ternary Operator
+
+  // return (
+  //   <div>
+  //     {isLoggedIn ? <LogoutBtn/> : <LoginBtn/>}
+  //   </div>
+  // )
+
+  // if (isLoggedIn){
+  //   return (
+  //     <LogoutBtn/>
+  //   ) 
+  // }else{
+  //   return (
+  //     <LoginBtn/>
+  //   )
+  // }
+
 }
 
 export default App
