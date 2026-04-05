@@ -1,11 +1,13 @@
 import { useEffect, useState } from 'react'
 
 import './App.css'
+import LoggerComponent from './components/LoggerComponent'
 
 function App() {
   
-  const [count, setCount] = useState(0);
-  const [total, setTotal] = useState(1);
+  // const [count, setCount] = useState(0);
+  // const [total, setTotal] = useState(1);
+
   //First -> side effect function
   //second -> clean of function
   //third -> comma separated dependent list
@@ -44,18 +46,21 @@ function App() {
   // }, [count])
   
 
-  function handleClick(){
-    setCount(count + 1);
-  }
+  // function handleClick(){
+  //   setCount(count + 1);
+  // }
 
-  function handleClickTotal(){
-    setTotal(total + 1);
-  }
+  // function handleClickTotal(){
+  //   setTotal(total + 1);
+  // }
   
 
   return (
     <div>
-      <button onClick={handleClick}>
+
+      <LoggerComponent/>
+
+      {/* <button onClick={handleClick}>
         Update Count
       </button>
       <br />
@@ -65,7 +70,7 @@ function App() {
         Update Total
       </button>
       <br />
-      Total is : {total}
+      Total is : {total} */}
     </div>
   )
 }
