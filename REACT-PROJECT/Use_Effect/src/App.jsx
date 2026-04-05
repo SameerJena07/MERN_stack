@@ -5,7 +5,7 @@ import './App.css'
 function App() {
   
   const [count, setCount] = useState(0);
-
+  const [total, setTotal] = useState(1);
   //First -> side effect function
   //second -> clean of function
   //third -> comma separated dependent list
@@ -27,19 +27,45 @@ function App() {
   //   alert ("I will run every time when count is updated")
   // }, [count])
   
+  //variation : 4
+  //Multiple dependencies
+  // useEffect(() => {
+  //   alert ("I will run every time when count/total is updated")
+  // }, [count, total])
+  
+  //variation : 5
+  //Let's add a clean of function
+  // useEffect(() => {
+  //   alert ("Count is Updated")
+  
+  //   return () => {
+  //     alert ("count is unmounted from UI")
+  //   }
+  // }, [count])
+  
 
   function handleClick(){
     setCount(count + 1);
+  }
+
+  function handleClickTotal(){
+    setTotal(total + 1);
   }
   
 
   return (
     <div>
       <button onClick={handleClick}>
-        Click me
+        Update Count
       </button>
       <br />
       Count is : {count}
+      <br />
+      <button onClick={handleClickTotal}>
+        Update Total
+      </button>
+      <br />
+      Total is : {total}
     </div>
   )
 }
