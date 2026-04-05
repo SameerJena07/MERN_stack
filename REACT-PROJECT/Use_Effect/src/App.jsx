@@ -1,13 +1,34 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 
 import './App.css'
 
 function App() {
   
+  const [count, setCount] = useState(0);
+
+  //First -> side effect function
+  //second -> clean of function
+  //third -> comma separated dependent list
+
+  //variation : 1
+  //runs on every render
+
+  useEffect(() => {
+      alert ("I will run on each render")
+  })
+
+  function handleClick(){
+    setCount(count + 1);
+  }
+  
 
   return (
     <div>
-      Hello Everyone
+      <button onClick={handleClick}>
+        Click me
+      </button>
+      <br />
+      Count is : {count}
     </div>
   )
 }
