@@ -4,6 +4,7 @@ import './App.css'
 import LoggerComponent from './components/LoggerComponent'
 import TimerComponent from './components/TimerComponent'
 import DataFetcher from './components/DataFetcher'
+import ResizeComponent from './components/ResizeComponent'
 
 function App() {
   
@@ -65,6 +66,8 @@ function App() {
       {/* <TimerComponent/> */}
 
       {/* <DataFetcher/> */}
+
+      {/* <ResizeComponent/> */}
 
       {/* <button onClick={handleClick}>
         Update Count
