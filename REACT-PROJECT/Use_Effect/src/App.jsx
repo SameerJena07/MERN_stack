@@ -12,10 +12,21 @@ function App() {
 
   //variation : 1
   //runs on every render
+  // useEffect(() => {
+  //     alert ("I will run on each render")
+  // })
 
-  useEffect(() => {
-      alert ("I will run on each render")
-  })
+  //variation : 2
+  //that runs on only firts render
+  // useEffect(() => {
+  //   alert ("I will run only on 1st render")
+  // }, [])
+  
+  //variation : 3
+  // useEffect(() => {
+  //   alert ("I will run every time when count is updated")
+  // }, [count])
+  
 
   function handleClick(){
     setCount(count + 1);
