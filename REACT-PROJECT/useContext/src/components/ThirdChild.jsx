@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 import { ThemeContext, UserContext } from '../App'
 
 const ThirdChild = () => {
-//   const user = useContext(UserContext);
+  const user = useContext(UserContext);
 const {theme, setTheme} = useContext(ThemeContext);
 
 function toggleTheme(){
@@ -18,7 +18,7 @@ function toggleTheme(){
         Change Theme
       </button>
 
-      {/* data: {user.name} */}
+      data: {user.name}
     </div>
   )
 }

@@ -3,7 +3,7 @@ import './App.css'
 import FirstChild from './components/FirstChild';
 
 //step 1: create context
-// const UserContext = createContext();
+const UserContext = createContext();
 //step 2: wrap all the context in a provider
 //step 3: pass value
 //step 4: make consume under a consumer
@@ -35,5 +35,5 @@ function App() {
 }
 
 export default App
-// export {UserContext}
+export {UserContext}
 export {ThemeContext}
